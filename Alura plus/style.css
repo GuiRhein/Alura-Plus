@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #00030C;
+    gap: 10em;
+}
+
+/* CABEÇALHO */
+
+.cabecalho{
+    background-image: url("/assets/Background.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+.cabecalho-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: white;
+    margin: 0 10em;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    align-items:center;
+}
+.cabecalho-texto-titulo{
+    font-family:'Inter', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.cabecalho-texto-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+}
+.cabecalho-texto-link-assine{
+    background-color: #167BF7;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px 0 20px 0;
+}
+.cabecalho-texto-link-aluraplus{
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px 0 20px 0;
+}
+.cabecalho-texto-link-aviso{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* PRINCIPAL */
+
+.principal{
+    display: flex;
+    background-color: #00030C;
+    flex-direction: column;
+    gap: 20em;
+}
+
+/* PRINCIPAL */ /*  ASSISTA */
+
+.principal-assista{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    color: white;   
+}
+.principal-assista-texto{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 80%;
+    gap: 2em;
+    margin: 0 6em;
+}
+.principal-assista-tela{
+    display: block;
+    width: 80%;
+    margin: 0 6em;
+}
+.principal-assista-texto-titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+}
+.principal-assista-texto-paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+/* PRINCIPAL */ /* COMBO */
+
+.principal-combo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    color: white;
+}
+.principal-combo-texto{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 80%;
+    gap: 2em;
+    margin: 0 10em;
+}
+.principal-combo-texto-paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 80%;
+}
+.principal-combo-texto-link{
+    background-color: #167BF7;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    width: 30%;
+    padding: 20px 0 20px 0;
+    text-align-last: center;
+    font-family: 'Inter', sans-serif;
+}
+.principal-combo-imagem{
+    width: 80%;
+    margin: 0 10em;
+}
+
+/* PRINCIPAL */ /* BAIXE */
+
+.principal-baixe{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    color: white; 
+}
+.principal-baixe-texto{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 80%;
+    gap: 2em;
+    margin: 0 6em;
+}
+.principal-baixe-imagem{
+    width: 80%;
+    margin: 0 6em;
+}
+.principal-baixe-texto-titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+}
+.principal-baixe-texto-paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+/* PRINCIPAL */ /* DISPONÍVEL */
+
+.principal-disponivel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap:50px
+}
+.principal-disponivel-titulo{
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+}
+.principal-disponivel-bloco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.principal-disponivel-bloco-tv{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal-disponivel-bloco-computador{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal-disponivel-bloco-celular{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* RODAPE */ 
+
+.rodape{
+    background-color: #00030C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.rodape-itens{
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.rodape-direitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.rodape-direitos-2{
+    text-align-last: center;
+    margin-bottom: 50px;
+}
